@@ -1,28 +1,11 @@
-# [Hexo] Plugins
+# [Jade] renderer
 
-Official plugins for [Hexo].
+Add support for [Jade].
 
-- [Plugin List](https://github.com/tommy351/hexo/wiki/Plugins)
-- [Plugin development](http://zespia.tw/hexo/docs/plugins.html)
-
-## Usage
-
-### Install
+## Install
 
 ```
-npm install <plugin-name> --save
+$ npm install hexo-renderer-jade --save
 ```
 
-### Update
-
-```
-npm update
-```
-
-### Uninstall
-
-```
-npm uninstall <plugin-name>
-```
-
-[Hexo]: http://zespia.tw/hexo
+[Jade]: http://jade-lang.com/
