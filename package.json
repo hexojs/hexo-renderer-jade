@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-jade",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Jade renderer plugin for Hexo",
   "main": "index",
   "scripts": {
