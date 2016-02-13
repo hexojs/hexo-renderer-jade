@@ -1,5 +1,4 @@
-var jade = require('jade');
+/* global hexo */
+'use strict';
 
-hexo.extend.renderer.register('jade', 'html', function(data, locals){
-  return jade.compile(data.text, {filename: data.path})(locals);
-}, true);
+hexo.extend.renderer.register('jade', 'html', require('./lib/renderer'), true);
