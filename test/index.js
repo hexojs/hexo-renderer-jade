@@ -14,4 +14,16 @@ describe('hexo-renderer-jade', function() {
 
     result.should.eql('<p>Hello Hexo</p>');
   });
+
+  it('compile', function() {
+    var render = r.compile({
+      text: 'p Hello #{name}'
+    });
+
+    var result = render({
+      name: 'Hexo'
+    });
+
+    result.should.eql('<p>Hello Hexo</p>');
+  });
 });
