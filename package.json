@@ -1,7 +1,7 @@
 {
-  "name": "hexo-renderer-jade",
-  "version": "0.3.0",
-  "description": "Jade renderer plugin for Hexo",
+  "name": "hexo-renderer-pug",
+  "version": "0.4.0",
+  "description": "Pug renderer plugin for Hexo",
   "main": "index",
   "scripts": {
     "eslint": "eslint .",
@@ -9,16 +9,17 @@
     "test": "mocha test/index.js",
     "test-cov": "istanbul cover --print both _mocha -- test/index.js"
   },
-  "repository": "hexojs/hexo-renderer-jade",
+  "repository": "hexojs/hexo-renderer-pug",
   "keywords": [
     "hexo",
     "jade",
+    "pug",
     "renderer"
   ],
   "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
   "license": "MIT",
   "dependencies": {
-    "jade": "^1.11.0"
+    "pug": "^2.0.0-beta6"
   },
   "devDependencies": {
     "chai": "^3.5.0",
