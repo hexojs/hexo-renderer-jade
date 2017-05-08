@@ -1,5 +1,7 @@
-# hexo-renderer-pug
-[![Build Status](https://travis-ci.org/hexojs/hexo-renderer-pug.svg?branch=master)](https://travis-ci.org/hexojs/hexo-renderer-pug)  [![NPM version](https://badge.fury.io/js/hexo-renderer-pug.svg)](http://badge.fury.io/js/hexo-renderer-pug) [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-renderer-pug.svg)](https://coveralls.io/r/hexojs/hexo-renderer-pug?branch=master) 
+# hexo-renderer-jade
+[![Build Status](https://travis-ci.org/hexojs/hexo-renderer-jade.svg?branch=master)](https://travis-ci.org/hexojs/hexo-renderer-jade)  [![NPM version](https://badge.fury.io/js/hexo-renderer-jade.svg)](http://badge.fury.io/js/hexo-renderer-jade) [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-renderer-jade.svg)](https://coveralls.io/r/hexojs/hexo-renderer-jade?branch=master) 
+
+** Now Jade is Pug **
 
 Support of [Pug] templates. Made after renaming well-known template engine
 **Jade** for new files with `*.pug` extension.
