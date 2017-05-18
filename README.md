@@ -6,8 +6,8 @@
 Support of [Pug] templates. Made after renaming well-known template engine
 **Jade** for new files with `*.pug` extension.
 
-Backward capapilities is supported, and `*.jade` files is rendered via old jade engine.
-`*.pug` files will be compiled throught the lastes pug renderer.
+Backward capapilities is supported, and `*.jade` files is rendered via the old jade engine.
+`*.pug` files will be compiled throught the lastest pug renderer.
 
 ## Install
 
