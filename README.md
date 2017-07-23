@@ -12,7 +12,7 @@ Backward capapilities is supported, and `*.jade` files is rendered via the old j
 ## Install
 
 ``` bash
-$ npm install hexo-renderer-pug --save
+$ npm install hexo-renderer-jade --save
 ```
 
 [Pug]: http://pugjs.org/
