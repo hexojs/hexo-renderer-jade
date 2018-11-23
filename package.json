@@ -33,6 +33,6 @@
     "jscs": "^3.0.7",
     "jscs-preset-hexo": "^1.0.1",
     "mocha": "^2.4.5",
-    "babel-eslint": "^7.2.1"
+    "babel-eslint": "^9.0.0"
   }
 }
