@@ -2,12 +2,19 @@
   "name": "hexo-renderer-jade",
   "version": "0.4.1",
   "description": "Pug/Jade renderer plugin for Hexo",
-  "main": "index",
+  "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
     "test": "mocha test/index.js",
     "test-cov": "istanbul cover --print both _mocha -- test/index.js"
   },
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
   "repository": "hexojs/hexo-renderer-jade",
   "keywords": [
     "hexo",
