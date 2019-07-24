@@ -6,7 +6,7 @@
   "scripts": {
     "eslint": "eslint .",
     "test": "mocha test/index.js",
-    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+    "test-cov": "nyc npm run test"
   },
   "repository": "hexojs/hexo-renderer-jade",
   "keywords": [
@@ -28,8 +28,8 @@
     "chai": "^4.2.0",
     "eslint": "^5.9.0",
     "eslint-config-hexo": "^3.0.0",
-    "istanbul": "^0.4.2",
     "mocha": "^6.0.1",
+    "nyc": "^14.1.1",
     "babel-eslint": "^10.0.1"
   }
 }
