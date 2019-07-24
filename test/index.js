@@ -1,14 +1,14 @@
 'use strict';
 
-var should = require('chai').should(); // eslint-disable-line
+const should = require('chai').should(); // eslint-disable-line
 
-describe('hexo-renderer-jade', function() {
-  var jade = require('../lib/jade');
-  var pug = require('../lib/pug');
+describe('hexo-renderer-jade', () => {
+  const jade = require('../lib/jade');
+  const pug = require('../lib/pug');
 
   // Jade test cases
-  it('jade - default', function() {
-    var result = jade({
+  it('jade - default', () => {
+    const result = jade({
       text: 'p Hello #{name}'
     }, {
       name: 'Hexo'
@@ -17,12 +17,12 @@ describe('hexo-renderer-jade', function() {
     result.should.eql('<p>Hello Hexo</p>');
   });
 
-  it('jade - compile', function() {
-    var render = jade.compile({
+  it('jade - compile', () => {
+    const render = jade.compile({
       text: 'p Hello #{name}'
     });
 
-    var result = render({
+    const result = render({
       name: 'Hexo'
     });
 
@@ -30,8 +30,8 @@ describe('hexo-renderer-jade', function() {
   });
 
   // Pug test cases
-  it('pug - default', function() {
-    var result = pug({
+  it('pug - default', () => {
+    const result = pug({
       text: 'p Hello #{name}'
     }, {
       name: 'Hexo'
@@ -40,12 +40,12 @@ describe('hexo-renderer-jade', function() {
     result.should.eql('<p>Hello Hexo</p>');
   });
 
-  it('pug - compile', function() {
-    var render = pug.compile({
+  it('pug - compile', () => {
+    const render = pug.compile({
       text: 'p Hello #{name}'
     });
 
-    var result = render({
+    const result = render({
       name: 'Hexo'
     });
 
