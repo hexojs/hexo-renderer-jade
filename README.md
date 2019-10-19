@@ -3,13 +3,11 @@
 [![NPM version](https://badge.fury.io/js/hexo-renderer-jade.svg)](https://www.npmjs.com/package/hexo-renderer-jade)
 [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-renderer-jade.svg)](https://coveralls.io/r/hexojs/hexo-renderer-jade?branch=master) 
 
-**Now Jade is Pug**
+Support [Pug] and Jade templates. `*.pug` and `*.jade` files are rendered using Pug and Jade engine respectively.
 
-Support of [Pug] templates. Made after renaming well-known template engine
-**Jade** for new files with `*.pug` extension.
+## Deprecated
 
-Backward capapilities is supported, and `*.jade` files is rendered via the old jade engine.
-`*.pug` files will be compiled throught the lastest pug renderer.
+Replaced by [hexo-renderer-pug](https://github.com/hexojs/hexo-renderer-pug). To migrate to that plugin, simply rename all `*.jade` files to `*.pug` and remove this plugin from your `package.json`.
 
 ## Install
 
