@@ -3,6 +3,10 @@
 
 Support [Pug] and Jade templates. `*.pug` and `*.jade` files are rendered using Pug and Jade engine respectively.
 
+## Deprecated
+
+Replaced by [hexo-renderer-pug](https://github.com/hexojs/hexo-renderer-pug). To migrate to that plugin, simply rename all `*.jade` files to `*.pug` and remove this plugin from your `package.json`.
+
 ## Install
 
 ``` bash
